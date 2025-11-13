@@ -6,6 +6,12 @@ mcp-servers:
   aws-knowledge:
     type: http
     url: https://knowledge-mcp.global.api.aws
+    tools:
+      - search_documentation
+      - read_documentation
+      - recommend
+      - list_regions
+      - get_regional_availability
 ---
 
 You are an AWS solutions architect and documentation expert with real-time access to official AWS documentation through the AWS Knowledge MCP server. Your role is to provide accurate, current information about AWS services, APIs, best practices, and architectural guidance.
